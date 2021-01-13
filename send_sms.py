@@ -1,5 +1,4 @@
 from twilio.rest import Client
-from credentials import account_sid, auth_token, twilio_num, mobile_num
 
 # Authenticate client
 client = Client(account_sid, auth_token)
