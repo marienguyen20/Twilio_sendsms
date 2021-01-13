@@ -10,7 +10,7 @@ Once you verify your number, you'll be asked a series of questions to customize 
 Once you finish the onboarding flow, you'll arrive at your project dashboard in the Twilio Console. This is where you'll be able to access your Account SID, authentication token, find a Twilio phone number, and more.
 
 ## Send a messeage with Python
-Now that we have Python and twilio-python installed, we can send an outbound text message from the Twilio phone number we just purchased with a single API request. Create and open a new file called send_sms.py and type or paste in this code sample.
+Now that we have Python and twilio-python installed, we can send a text message from the Twilio phone number we just purchased with a single API request. Create and open a new file called send_sms.py and type or paste in this code sample.
 
 ### Replace the placeholder credential values
 Swap the placeholder values for account_sid and auth_token with your personal Twilio credentials. Go to https://www.twilio.com/console and log in. On this page, you’ll find your unique Account SID and Auth Token, which you’ll need any time you send messages through the Twilio Client. 
