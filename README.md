@@ -9,7 +9,7 @@ When you sign up, you'll be asked to verify your personal phone number. This hel
 Once you verify your number, you'll be asked a series of questions to customize your experience.
 Once you finish the onboarding flow, you'll arrive at your project dashboard in the Twilio Console. This is where you'll be able to access your Account SID, authentication token, find a Twilio phone number, and more.
 
-## Send an outbound SMS with Python
+## Send a messeage with Python
 Now that we have Python and twilio-python installed, we can send an outbound text message from the Twilio phone number we just purchased with a single API request. Create and open a new file called send_sms.py and type or paste in this code sample.
 
 ### Replace the placeholder credential values
@@ -21,5 +21,5 @@ Open send_sms.py and replace the values for account_sid and auth_token with your
 Make sure the phone number using the following format:
 [+][country code][phone number including area code]
 
-### Save your changes and run this script from your terminal:
+### Save your changes and run this script from your terminal
 python send_sms.py
